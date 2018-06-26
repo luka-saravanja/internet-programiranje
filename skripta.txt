@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS fortnite_balkan;
+CREATE DATABASE fortnite_balkan;
+USE fortnite_balkan;
+
+CREATE TABLE korisnik(
+    id INT AUTO_INCREMENT,
+    korisnickoIme   VARCHAR(255),
+    zaporka VARCHAR(255),
+    ime VARCHAR(255),
+    prezime VARCHAR(255),
+    CONSTRAINT PK_korisnik PRIMARY KEY(id)
+);
+
